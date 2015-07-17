@@ -15,6 +15,7 @@
 		18D31C4215329B03001FED1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D31C4115329B03001FED1C /* AppDelegate.m */; };
 		18D31C4515329B03001FED1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D31C4415329B03001FED1C /* ViewController.m */; };
 		18D31C4815329B03001FED1C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D31C4615329B03001FED1C /* ViewController.xib */; };
+		89A1618C1B58F12D00BE7B2A /* TableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A1618B1B58F12D00BE7B2A /* TableViewCell1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		18D31C3115329B03001FED1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18D31C3315329B03001FED1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18D31C3515329B03001FED1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		18D31C3915329B03001FED1C /* SqliteTest-Info.plist */ = {isa = PBXFileReference; path = "SqliteTest-Info.plist"; sourceTree = "<group>"; };
+		18D31C3915329B03001FED1C /* SqliteTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SqliteTest-Info.plist"; sourceTree = "<group>"; };
 		18D31C3B15329B03001FED1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18D31C3D15329B03001FED1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18D31C3F15329B03001FED1C /* SqliteTest-Prefix.pch */ = {isa = PBXFileReference; path = "SqliteTest-Prefix.pch"; sourceTree = "<group>"; };
-		18D31C4015329B03001FED1C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D31C3F15329B03001FED1C /* SqliteTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SqliteTest-Prefix.pch"; sourceTree = "<group>"; };
+		18D31C4015329B03001FED1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18D31C4115329B03001FED1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18D31C4315329B03001FED1C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		18D31C4315329B03001FED1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18D31C4415329B03001FED1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18D31C4715329B03001FED1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		89A1618A1B58F12D00BE7B2A /* TableViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell1.h; sourceTree = "<group>"; };
+		89A1618B1B58F12D00BE7B2A /* TableViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				18D31C4415329B03001FED1C /* ViewController.m */,
 				18D31C4615329B03001FED1C /* ViewController.xib */,
 				18D31C3815329B03001FED1C /* Supporting Files */,
+				89A1618A1B58F12D00BE7B2A /* TableViewCell1.h */,
+				89A1618B1B58F12D00BE7B2A /* TableViewCell1.m */,
 			);
 			path = SqliteTest;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				18D31C3E15329B03001FED1C /* main.m in Sources */,
 				18D31C4215329B03001FED1C /* AppDelegate.m in Sources */,
 				18D31C4515329B03001FED1C /* ViewController.m in Sources */,
+				89A1618C1B58F12D00BE7B2A /* TableViewCell1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +278,7 @@
 				18D31C4D15329B03001FED1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
